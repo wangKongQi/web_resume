@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Resume</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	</head>
+	<style type="text/css">
+		body {
+			font-family: "微软雅黑";
+		}
+		
+		ul li {
+			list-style-type: none;
+		}
+		
+		.nav-tabs>li {
+			float: right;
+			padding-right: 10px;
+		}
+		
+		#person {
+			margin-top: 150px;
+		}
+		
+		#img_men {
+			width: 200px;
+			height: 200px;
+		}
+		
+		#information {
+			margin-top: 100px;
+		}
+		
+		#inform li {
+			padding-top: 20px;
+			font-size: 20px;
+		}
+		
+		#go_through {
+			margin-top: 100px;
+		}
+		
+		#skill {
+			padding-top: 100px;
+		}
+	</style>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-">
+					<h1>Resume</h1>
+				</div>
+			</div>
+			<div class="container">
+				<ul id="myTab" class="nav nav-tabs">
+					<li>
+						<a href="#experience" data-toggle="tab">
+							项目经验
+						</a>
+					</li>
+					<li>
+						<a href="#skill" data-toggle="tab">专业技能</a>
+					</li>
+					<li>
+						<a href="#go_through" data-toggle="tab">经历</a>
+					</li>
+					<li class="active">
+						<a href="#home" data-toggle="tab">首页</a>
+					</li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div class="tab-pane fade in active" id="home">
+						<div class="row">
+							<div class="col-md-2 col-md-offset-1" id="person">
+								<img src="img/w4.png" class="img-circle" id="img_men">
+							</div>
+							<div class="col-md-7">
+								<div class="row" id="information">
+									<div class="col-md-5">
+										<ul id="inform">
+											<li>姓名&nbsp;&nbsp;|&nbsp;&nbsp;汪孔奇</li>
+											<li>性别&nbsp;&nbsp;|&nbsp;&nbsp;男</li>
+											<li>出生&nbsp;&nbsp;|&nbsp;&nbsp;1994.07.01</li>
+											<li>户籍&nbsp;&nbsp;|&nbsp;&nbsp;安徽安庆</li>
+											<li>学历&nbsp;&nbsp;|&nbsp;&nbsp;本科</li>
+										</ul>
+									</div>
+									<div class="col-md-7">
+										<ul id="inform">
+											<li>学校&nbsp;&nbsp;|&nbsp;&nbsp;安徽文达信息工程学院</li>
+											<li>专业&nbsp;&nbsp;|&nbsp;&nbsp;软件工程</li>
+											<li>联系方式&nbsp;&nbsp;|&nbsp;&nbsp;15205609180</li>
+											<li>邮箱&nbsp;&nbsp;|&nbsp;&nbsp;1175608468@qq.com</li>
+											<li>居住地&nbsp;&nbsp;|&nbsp;&nbsp;上海宝山</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="go_through">
+						<h2>教育背景</h2>
+						<div class="alert alert-success alert-dismissable">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+							&times;
+							</button> 2013.09——2017.07&nbsp;&nbsp;安徽文达信息工程学院
+						</div>
+						<h2>工作经历</h2>
+						<div class="alert alert-info alert-dismissable">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">
+							&times;
+							</button> 2017.04——2017.08&nbsp;&nbsp;江苏翔晟信息技术股份有限公司
+						</div>
+					</div>
+					<div class="tab-pane fade" id="skill">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-1">
+								java
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								ssm框架
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								js/jquery/ajax/bootstrap框架
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+								mysql
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="experience">
+						<div>
+							<h3>项目一</h3>
+							<div>
+								项目名称：药品管理系统<br /> 开发时间：二周
+								<br /> 开发工具：Myeclipse + MySql+tomcat7.0<br /> 项目描叙：本项目主要是针对药品管理的需求，实现药物的管理、进货、出货以及各药房存货等功能。
+								<br /> 个人负责： 1.登录模块：主要是实现管理员和医护人员以及用户的登录 2.用户管理和部门管理模块：主要是对部门的增删改查的操作。 3.角色管理模块：主要是实现不同的用户所展现的权限的不同 4.菜单管理模块：主要是关联角色表 5.数据字典模块：主要是进货的供应商管理，药品的管理，药库的管理，以及数据字典的增删改查操作。
+								<br />
+							</div>
+						</div>
+						<div>
+							<h3>项目二</h3>
+							<div>
+								项目名称：校园旅游网<br /> 开发时间：二周
+								<br /> 开发工具：STS+MySQL+SVN
+								<br /> 项目描叙： 本项目围绕社团组织活动问题重点展开的研究，实现了社团以及个人可以发布旅游消息，组织相同爱好者一起去旅行。主要实现的是登录注册、忘记密码、景点地域的划分、旅游消息的发布、文件的上传以及个人中心和社区等功能。
+								<br /> 个人负责： 1.页面设计，主要采用bootStrap前端框架以及html，css，JavaScript、jquery等技术，满足后台功能的需求。 2.数据库的设计，主要采用PowerDesigner来设计数据库以及实现表与表之间的关联关系。 3.景点的动态加载以及分页功能，主要采用了JSTL和EL表达式实现景点的动态加载，以及采用JSP的分页技术实现景点的分页和对景点地区的分类和展示在前台页面。
+								<br />
+							</div>
+						</div>
+						<div>
+							<h3>项目三</h3>
+							<div>
+								项目名称：翔晟云章系统<br /> 开发时间：一个月
+								<br /> 开发工具：Myeclipse2014+MySQL+SVN
+								<br /> 项目描叙：该系统主要是pdf盖章和签名验证,公司内部使用的系统。
+								<br /> 个人负责：1.自动生成签章功能的开发和调试：主要是通过Graphics2D来画图操作 2.部分网页的开发 3.对系统功能的测试
+								<br />
+							</div>
+						</div>
+						<div>
+							<h3>项目四</h3>
+							<div>
+								项目名称：诺安科技系统<br /> 开发时间：一个月
+								<br /> 开发工具：Myeclipse2014+MySQL+SVN
+								<br /> 项目描叙：该系统主要是对诺安公司的需求进行开发的系统。
+								<br /> 个人负责：1.主要负责的是前端页面的开发和调试。 2.前后台交互，进行接口的联调 3.对系统功能的测试
+								<br />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+	</body>
+
+</html>
